@@ -29,12 +29,12 @@ describe('calculator', function () {
     assert.equal(15.0, calculator.runningTotal)
   })
 
-  // it('it can divide two numbers', function(){
-  //   calculator.previousTotal = "21"
-  //   calculator.divide("7")
-  //   assert.equal(3.0, calculator.runningTotal)
-  // })
-  //
+  it('it can divide two numbers', function(){
+    calculator.previousTotal = "21"
+    calculator.divide("7")
+    assert.equal(3.0, calculator.runningTotal)
+  })
+  
   // it('it can concatenate multiple numbers', function(){
   //   calculator.runningTotal = "3.0"
   //   calculator.numberClick("7.0")
