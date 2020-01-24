@@ -34,12 +34,13 @@ describe('calculator', function () {
     calculator.divide("7")
     assert.equal(3.0, calculator.runningTotal)
   })
-  
-  // it('it can concatenate multiple numbers', function(){
-  //   calculator.runningTotal = "3.0"
-  //   calculator.numberClick("7.0")
-  //   assert.equal(73.0, calculator.runningTotal)
-  // })
+
+  it('it can concatenate multiple numbers', function(){
+    calculator.runningTotal = "3"
+    calculator.newTotal = false
+    calculator.numberClick("7")
+    assert.equal(37.0, calculator.runningTotal)
+  })
 
 // what do you want to arrange, act, assert
 
