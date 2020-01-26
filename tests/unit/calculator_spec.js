@@ -6,11 +6,6 @@ describe('calculator', function () {
     calculator = new Calculator()
   });
 
-  // write unit tests here in the form of "it should do something..."
-  it('it has a sample test', function(){
-    assert.equal(true, true)
-  })
-
   it('it can add two numbers', function(){
     calculator.previousTotal = "1"
     calculator.add("4")
@@ -58,6 +53,5 @@ describe('calculator', function () {
     calculator.add("15")
     assert.strictEqual(25.0, calculator.runningTotal)
   })
-// what do you want to arrange, act, assert
 
 });

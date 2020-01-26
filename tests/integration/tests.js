@@ -86,8 +86,5 @@ describe('calculator functionality', function() {
     element(by.css('#operator_equals')).click();
     expect(running_total.getAttribute('value')).to.eventually.equal('undefined')
   })
-// grab elements click the buttons you want and then check running total equals what you want
-// run selenium, express server and run protractor
-// for number 5 will need to change the effect of the calculator and test it so the answer is not infinity
-// submission is under canvas pda site
+
 });
