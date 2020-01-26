@@ -74,7 +74,7 @@ describe('calculator functionality', function() {
     element(by.css('#number9')).click();
     element(by.css('#number9')).click();
     element(by.css('#number9')).click();
-element(by.css('#operator_equals')).click();
+    element(by.css('#operator_equals')).click();
     expect(running_total.getAttribute('value')).to.eventually.equal('99980001')
   })
 
